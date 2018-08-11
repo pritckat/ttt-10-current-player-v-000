@@ -4,8 +4,9 @@ def turn_count(board)
     if spot == "X" or spot == "O"
       count += 1
     end
+  puts count
   end
-  return count
+  #return count
 end
 
 def current_player(board)
